@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--<< Header Area >>-->
+        <!--<< Header Area >>-->
     <head>
        <!-- ========== Meta Tags ========== -->
         <meta charset="UTF-8">
@@ -11,7 +11,7 @@
         <!-- ======== Page title ============ -->
         <title>Hotel Heritage Inn</title>
         <!--<< Favcion >>-->
-        <link rel="shortcut icon" href="assets/img/favicon.svg">
+        <link rel="shortcut icon" href="assets/images/white-logo.png" type="image/x-icon">
         <!--<< Bootstrap min.css >>-->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!--<< All Min Css >>-->
@@ -32,6 +32,9 @@
         <link rel="stylesheet" href="assets/css/nice-select.css">
         <!--<< Main.css >>-->
         <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <!--<< room.css >>-->
+        <link rel="stylesheet" href="assets/css/room-details-custom.css">
                             
     </head>
     <body>
@@ -39,13 +42,12 @@
        <!-- Preloader Start -->
         <div id="preloader">
         <div class="preloader-content">
-            <img src="assets/img/logo/black-logo.svg" alt="Hotel Logo" class="preloader-logo">
+            <img src="assets/images/white-logo.png" alt="Hotel Logo" class="preloader-logo">
             <div class="spinner"></div>
             <p>Booking your experience...</p>
         </div>
         </div>
       <!-- Preloader End -->
-
 
         <!-- GT Back To Top Start -->
         <button id="back-top" class="back-to-top show">
@@ -64,7 +66,7 @@
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
                                 <a href="index.html">
-                                    <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                    <img src="assets/images/white-logo.png" alt="logo-img">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
@@ -73,9 +75,6 @@
                                 </button>
                             </div>
                         </div>
-                        <p class="text d-none d-xl-block">
-                            Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                        </p>
                         <div class="mobile-menu fix mb-3"></div>
                         <div class="offcanvas__contact d-xl-block">
                             <h4 class="d-xl-block">Contact Info</h4>
@@ -84,16 +83,13 @@
                                     <div class="offcanvas__contact-icon">
                                         <i class="fal fa-map-marker-alt"></i>
                                     </div>
-                                    <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
-                                    </div>
                                 </li>
                                 <li class="d-flex align-items-center">
                                     <div class="offcanvas__contact-icon mr-15">
                                         <i class="fal fa-envelope"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="mailto:info@example.com"><span class="mailto:info@example.com">info@example.com</span></a>
+                                        <a href="mailto:heritageinn21@gmail.com"><span class="heritageinn21@gmail.com">heritageinn21@gmail.com</span></a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -109,7 +105,7 @@
                                         <i class="far fa-phone"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="tel:+11002345909">+11002345909</a>
+                                        <a href="tel:+919839143069">+91 9839143069</a>
                                     </div>
                                 </li>
                             </ul>
@@ -125,26 +121,23 @@
             </div>
         </div>
         <div class="offcanvas__overlay"></div>
-
-       <div class="header-top-section-3 style-bg">
+       
+        <!-- Header Section Start -->
+         <div class="header-top-section-3">
             <div class="container-fluid">
-                <div class="header-top-wrapper-3 style-inner">
+                <div class="header-top-wrapper-3">
                     <div class="header-left">
                          <ul class="list">
                             <li>
                                 <i class="fa-solid fa-phone"></i>
-                                <a href="tel:+093783575222">+09 378 357 5222</a>
+                                <a href="tel:+91 9839143069">+91 9839143069</a>
                             </li>
                             <li>/</li>
                              <li>
                                 <i class="fa-solid fa-envelope"></i>
-                                <a href="mailto:info@example.com">info@example.com</a>
+                                <a href="mailto:heritageinn21@gmail.com">heritageinn21@gmail.com</a>
                             </li>
                             <li>/</li>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Elgin Street, 6391, Celina, Delaware
-                            </li>
                         </ul>
                     </div>
                     <div class="social-icon">
@@ -156,6 +149,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Header Section Start -->
         <header id="header-sticky" class="header-1 header-3">
             <div class="container-fluid">
@@ -164,10 +158,10 @@
                         <div class="header-left">
                             <div class="logo">
                             <a href="index.html" class="header-logo">
-                                <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                <img src="assets/images/white-logo.png" alt="logo-img">
                             </a>
                             <a href="index.html" class="header-logo-2">
-                                <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                <img src="assets/images/white-logo.png" alt="logo-img">
                             </a>
                         </div>
                         </div>
@@ -180,121 +174,36 @@
                                                 <a href="index.html">
                                                     Home 
                                                 </a>
-                                                <ul class="submenu has-homemenu">
-                                                    <li>
-                                                        <div class="homemenu-items">
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb">
-                                                                    <img src="assets/img/header/home-1.jpg" alt="img">
-                                                                    <div class="demo-button">
-                                                                         <a href="index.html" class="theme-btn">
-                                                                            Multi Page <i class="fa-solid fa-arrow-right"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                       Home Page 01
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb mb-15">
-                                                                    <img src="assets/img/header/home-2.jpg" alt="img">
-                                                                    <div class="demo-button">
-                                                                        <a href="index-2.html" class="theme-btn">
-                                                                            Multi Page <i class="fa-solid fa-arrow-right"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                       Home Page 02
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb mb-15">
-                                                                    <img src="assets/img/header/home-3.jpg" alt="img">
-                                                                    <div class="demo-button">
-                                                                        <a href="index-3.html" class="theme-btn">
-                                                                            Multi Page <i class="fa-solid fa-arrow-right"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                       Home Page 03
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                                
                                             <li class="has-dropdown active d-xl-none">
                                                 <a href="index.html" class="border-none">
                                                 Home
                                                 </a>
-                                                <ul class="submenu">
-                                                    <li><a href="index.html">Home 01</a></li>
-                                                    <li><a href="index-2.html">Home 02</a></li>
-                                                    <li><a href="index-3.html">Home 03</a></li>
-                                                </ul>
                                             </li>
                                             <li>
                                                 <a href="about.html">About Us</a>
                                             </li>
                                             <li class="has-dropdown">
-                                                <a href="news-details.html">
-                                                    Pages
+                                                <a href="room.html">
+                                                    Rooms / Accommodation
                                                 </a>
-                                                <ul class="submenu">
-                                                     <li class="has-dropdown">
-                                                        <a href="room-details.html">
-                                                            Room
-                                                            <i class="fas fa-angle-right"></i>
-                                                        </a>
-                                                        <ul class="submenu">
-                                                            <li><a href="room.html"> Our Room</a></li>
-                                                            <li><a href="room-details.html">Room Details</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="facilitie.html">Hotel Facilities</a></li>
-                                                    <li class="has-dropdown">
-                                                        <a href="team-details.html">
-                                                            Team
-                                                            <i class="fas fa-angle-right"></i>
-                                                        </a>
-                                                        <ul class="submenu">
-                                                            <li><a href="team.html">Our Team</a></li>
-                                                            <li><a href="team-details.html">Team Details</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="testimonial.html">Our Testimonial</a></li>
-                                                    <li><a href="404.html">404 Page</a></li>
+                                                <ul class="submenu">                                                
+                                                    <li><a href="room-deluxe.html">DELUXE ROOM</a></li>
+                                                    <li><a href="room-duplex.html">DUPLEX ROOM</a></li>
+                                                    <li><a href="room-executive-superior.html">EXECUTIVE ROOM & SUPERIOR ROOM</a></li>
+                                                    <li><a href="room-executive-triple.html">EXECUTIVE TRIPLE ROOM</a></li>
+                                                    <li><a href="room-family.html">FAMILY ROOM</a></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="service-details.html">
-                                                    Service
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li><a href="service.html">Our Service</a></li>
-                                                    <li>
-                                                        <a href="service-details.html">Service Details</a>
-                                                    </li>
-                                                </ul>
+                                                    Restaurant
+                                                </a>                                            
                                             </li>
                                            <li>
                                                 <a href="news-details.html">
-                                                    Blog
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li><a href="news-grid.html">Blog Grid</a></li>
-                                                    <li><a href="news.html">Blog Standard</a></li>
-                                                    <li><a href="news-details.html">Blog Details</a></li>
-                                                </ul>
+                                                    Offers
+                                                </a>                                                
                                             </li>
                                             <li>
                                                 <a href="contact.html">Contact Us</a>
@@ -319,87 +228,64 @@
             </div>
         </header>
 
-
-        <!--Breadcrumb-Wrapper Start -->
-        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
-        <div class="container">
-            <div class="page-heading">
-                <div class="breadcrumb-sub-title">
-                <h1 class="text-white wow fadeInUp" data-wow-delay=".3s">About Us</h1>
-                </div>
-                    <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
-                        <li>
-                            <a href="index.html">
-                            Home
-                            </a>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </li>
-                        <li>
-                            About Us
-                        </li>
-                    </ul>
+        <!-- Page Banner -->
+        <section class="rd-banner" style="background-image:url('assets/images/Restaurant.jpeg');">
+            <div class="container rd-banner__inner">
+                <span class="rd-eyebrow">Hotel Heritage Inn &middot; Varanasi</span>
+                <h1>About Us</h1>
+                <div class="rd-banner__crumb">
+                    <a href="index.html">Home</a><i class="fa-solid fa-angle-right"></i>
+                    <span>About Us</span>
                 </div>
             </div>
-        </div>
+        </section>
+        <div class="rd-arch-divider on-maroon flip"></div>
 
-        <!--About Section Start -->
+<!--About Section Start -->
         <section class="about-section section-padding fix section-bg">
         <div class="container">
             <div class="about-wrapper">
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="about-image">
-                            <img src="assets/img/home-1/about/about-1.jpg" alt="img">
-                            <div class="shape">
-                                <img src="assets/img/home-1/about/shape.png" alt="img">
-                            </div>
+                            <img src="assets/images/hm-bnner.jpeg" alt="img">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-content">
                             <div class="section-title mb-0">
-                                <span class="sub-title wow fadeInUp">The Heart of Hospitality</span>
+                                <span class="sub-title wow fadeInUp">THE ETERNAL CITY OF VARANASI</span>
                                 <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                    Welcome To a World of <br> Warmth & Elegance Hotel
+                                    Experience the Timeless Soul of Varanasi
                                 </h2>
                             </div>
                             <p class="text wow fadeInUp" data-wow-delay=".3s">
-                                Welcome to arlux, your trusted platform for discovering and booking the best hotels around the world. Since our journey began, we’ve been committed to making travel easier, more comfortable, and affordable for everyone
+                                Nestled in the sacred city of Varanasi, Hotel Heritage Inn blends timeless elegance with modern comfort. Just moments from the iconic Kashi Vishwanath Temple, the mesmerizing Dashashwamedh Ghat, and the enchanting Ganga Aarti, our hotel offers the perfect retreat to experience the city's rich spiritual heritage and vibrant culture.
                             </p>
                             <div class="list-item wow fadeInUp" data-wow-delay=".5s">
                                 <ul class="list">
                                     <li>
                                         <i class="fa-solid fa-circle-chevron-right"></i>
-                                        Easy and secure online booking
+                                        Close to Kashi Vishwanath Temple & Major Ghats
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-chevron-right"></i>
-                                        Exclusive discounts and offers
+                                       Experience the Divine Ganga Aarti
                                     </li>
                                 </ul>
                                 <ul class="list">
                                     <li>
                                         <i class="fa-solid fa-circle-chevron-right"></i>
-                                        24/7 customer support
+                                        Authentic Banarasi Hospitality
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-chevron-right"></i>
-                                        Flexible cancellation policies
+                                        Delicious Local & Multi-Cuisine Dining
                                     </li>
                                 </ul>
                             </div>
-                            <div class="hero-button-item wow fadeInUp" data-wow-delay=".3s bg-cover" style="background-image: url(assets/img/home-1/about/radial-bg.jpg);">
-                                <div class="top-shape">
-                                    <img src="assets/img/home-1/about/bg-shape.png" alt="img">
-                                </div>
                                 <a href="about.html" class="theme-btn">Know more about us</a>
                                 <span class="button-text">
-                                    <span class="me-3 d-line">view reels</span>
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
                                 </span>
                             </div>
                         </div>
@@ -423,30 +309,13 @@
                             <div class="icon">
                                 <i class="fa-solid fa-utensils"></i>
                             </div>
-                            <h3>facilities</h3>
+                            <h3>Enjoy Authentic Banarasi Flavors</h3>
                             <p>
-                                This is the dolor sit amet adipisicing elit. Ducimus corrupti sit amet tempore placeat ipsa. This is the dolor sit amet adipisicing elit.
+                                Savor the rich taste of traditional Banarasi delicacies alongside Indian and multi-cuisine specialties, thoughtfully prepared to offer an unforgettable dining experience in an elegant setting.
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">
-                    <div class="hotel-facilities-items">
-                        <div class="facilities-image">
-                            <img src="assets/img/home-1/room/faciliti-2.jpg" alt="img">
-                            <img src="assets/img/home-1/room/faciliti-2.jpg" alt="img">
-                        </div>
-                        <div class="facilities-content">
-                            <div class="icon">
-                                <i class="fa-solid fa-restroom"></i>
-                            </div>
-                            <h3>Spa & Beauty</h3>
-                            <p>
-                                This is the dolor sit amet adipisicing elit. Ducimus corrupti sit amet tempore placeat ipsa. This is the dolor sit amet adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                </div>                
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
                     <div class="hotel-facilities-items">
                         <div class="facilities-image">
@@ -457,26 +326,9 @@
                             <div class="icon">
                                 <i class="fa-solid fa-golf-ball-tee"></i>
                             </div>
-                            <h3>Fairway & Flora</h3>
+                            <h3>Rooftop & City Views</h3>
                             <p>
-                                This is the dolor sit amet adipisicing elit. Ducimus corrupti sit amet tempore placeat ipsa. This is the dolor sit amet adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">
-                    <div class="hotel-facilities-items">
-                        <div class="facilities-image">
-                            <img src="assets/img/home-1/room/faciliti-4.jpg" alt="img">
-                            <img src="assets/img/home-1/room/faciliti-4.jpg" alt="img">
-                        </div>
-                        <div class="facilities-content">
-                            <div class="icon">
-                                <i class="fa-solid fa-dumbbell"></i>
-                            </div>
-                            <h3>Fitness & Gym</h3>
-                            <p>
-                                This is the dolor sit amet adipisicing elit. Ducimus corrupti sit amet tempore placeat ipsa. This is the dolor sit amet adipisicing elit.
+                                Relax in a peaceful rooftop ambiance with breathtaking views of the city skyline. It's the perfect place to unwind after exploring Varanasi's timeless streets and sacred ghats.
                             </p>
                         </div>
                     </div>
@@ -491,9 +343,9 @@
                             <div class="icon">
                                 <i class="fa-solid fa-person-swimming"></i>
                             </div>
-                            <h3>Reflecting Pool</h3>
+                            <h3>Local Mandir Tours</h3>
                             <p>
-                                This is the dolor sit amet adipisicing elit. Ducimus corrupti sit amet tempore placeat ipsa. This is the dolor sit amet adipisicing elit.
+                                Explore the city's iconic ghats, ancient temples, bustling markets, and cultural landmarks with guided local tours designed to help you experience the true spirit of Varanasi.
                             </p>
                         </div>
                     </div>
@@ -508,9 +360,9 @@
                             <div class="icon">
                                 <i class="fa-solid fa-car-rear"></i>
                             </div>
-                            <h3>Guest Parking</h3>
+                            <h3>Secure Guest Parking</h3>
                             <p>
-                                This is the dolor sit amet adipisicing elit. Ducimus corrupti sit amet tempore placeat ipsa. This is the dolor sit amet adipisicing elit.
+                                Enjoy spacious, secure on-site parking with easy vehicle access, ensuring a comfortable and hassle-free stay for every guest.
                             </p>
                         </div>
                     </div>
@@ -520,31 +372,22 @@
         </section>
     
         <!--Marque Section Start -->
-        <div class="marque-section fix">
+        <div class="marque-section fix section-padding pt-0">
             <div class="scrolling-wrap">
             <div class="comm">
-                <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Health and Fitness</div>
-                <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Modern City Hotel</div>
-                <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Best Luxury Resort</div>
-                <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Luxury Hotel in California</div>
-                <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Health and Fitness</div>
-                <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Health and Fitness</div>
+            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Hotel Heritage Inn</div>
+            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Best Restaurant</div>
+            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Luxury Hotel in Varanasi</div>
         </div>
         <div class="comm">
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Health and Fitness</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Modern City Hotel</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Best Luxury Resort</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Luxury Hotel in California</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Health and Fitness</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Health and Fitness</div>
+            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Hotel Heritage Inn</div>
+            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Best Restaurant</div>
+            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Luxury Hotel in Varanasi</div>
         </div>
             <div class="comm">
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Health and Fitness</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Modern City Hotel</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Best Luxury Resort</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Luxury Hotel in California</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Health and Fitness</div>
-            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Health and Fitness</div>
+            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Hotel Heritage Inn</div>
+            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Best Restaurant</div>
+            <div class="cmn-textslide"><i class="fa-sharp fa-solid fa-star"></i> Luxury Hotel in Varanasi</div>
         </div>
         </div>
         </div>
@@ -736,92 +579,9 @@
             </div>
         </section>
 
-        <!--Instagram Section Start -->
-        <div class="instagram-section-2 section-padding pb-0 fix">
-        <div class="swiper instagram-banner-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="instagram-banner-items">
-                        <div class="banner-image">
-                            <img src="assets/img/home-1/instagram/01.jpg" alt="insta-img">
-                            <a href="index.html" class="icon">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="instagram-banner-items">
-                        <div class="banner-image">
-                            <img src="assets/img/home-1/instagram/02.jpg" alt="insta-img">
-                            <a href="index.html" class="icon">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                    <div class="swiper-slide">
-                    <div class="instagram-banner-items">
-                        <div class="banner-image">
-                            <img src="assets/img/home-1/instagram/03.jpg" alt="insta-img">
-                            <a href="index.html" class="icon">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="instagram-banner-items">
-                        <div class="banner-image">
-                            <img src="assets/img/home-1/instagram/04.jpg" alt="insta-img">
-                            <a href="index.html" class="icon">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="instagram-banner-items">
-                        <div class="banner-image">
-                            <img src="assets/img/home-1/instagram/05.jpg" alt="insta-img">
-                            <a href="index.html" class="icon">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="instagram-banner-items">
-                        <div class="banner-image">
-                            <img src="assets/img/home-1/instagram/06.jpg" alt="insta-img">
-                            <a href="index.html" class="icon">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        <!--Footer Section Start -->
-        <footer class="footer-section fix bg-cover" style="background-image: url(assets/img/home-1/footer.jpg);">
+       <!-- Footer Section Start -->
+        <footer class="footer-section fix bg-cover" style="background-image: url(assets\images\Restaurant.jpeg);">
         <div class="container">
-            <div class="footer-newsletter">
-                <div class="newsletter-content">
-                    <h3>Get newsletter from hotel</h3>
-                    <p>At restin, we believe luxury is not just a destination—it’s a feeling, an experience, and a way of life</p>
-                </div>
-                <form action="#">
-                    <div class="form-clt">
-                        <i class="fa-solid fa-envelope"></i>
-                        <input type="text" name="email" id="email" placeholder="enter your email">
-                        <button type="submit" class="theme-btn">
-                            subscribe now
-                        </button>
-                    </div> 
-                </form>
-            </div>
             <div class="footer-widget-wrapper">
                 <div class="row">
                     <div class="col-xl-4 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay=".2s">
@@ -831,7 +591,7 @@
                             </div>
                             <div class="footer-content">
                                 <p>
-                                    Welcome to restin, your trusted platform for discovering and booking the best hotels around the world. Since our journey began.
+                                    Hotel Hotel Heritage Inn is a haven of peace and tranquility in the heart of Varanasi. The budget offering hotel provides unique experience of hospitality that makes guests feel at home. This hotel is a great option for leisure travellers who are looking for easy accessibility.
                                 </p>
                             </div>
                         </div>
@@ -883,15 +643,15 @@
                             <ul class="contact-item">
                                 <li>
                                     <i class="fa-solid fa-location-dot"></i>
-                                    UK, 1212; 102/B New Elephant <br> Road London
+                                     B-3/26-A,Shivala, Next to Anandmayi Hospital Varanasi, (UP) - INDIA
                                 </li>
                                 <li class="style-2">
                                     <i class="fa-solid fa-envelope"></i>
-                                    <a href="mailto:exmplor@gmail.com">exmplor@gmail.com</a>
+                                    <a href="mailto:heritageinn21@gmail.com">heritageinn21@gmail.com</a>
                                 </li>
                                 <li class="style-2">
                                     <i class="fa-solid fa-phone"></i>
-                                    <a href="tel:+1234567879967">+123 456 7879 967</a>
+                                    <a href="tel:+919839143069">+91 9839143069</a>
                                 </li>
                             </ul>
                         </div>
@@ -919,14 +679,16 @@
                             <a href="contact.html">Contact Us</a>
                         </li>
                     </ul>
-                    <p class="wow fadeInRight" data-wow-delay=".7s">Copyright© <span>restin</span></p>
+                    <p class="wow fadeInRight" data-wow-delay=".7s">Copyright© <span> Hotel Heritage Inn. All rights reserved.</span></p>
                 </div>
                 <a href="index.html" class="footer-logo wow fadeInUp" data-wow-delay=".3s">
-                    <img src="assets/img/logo/white-logo.svg" alt="img">
+                    <img src="assets/images/logo.png" alt="Hotel Heritage Inn logo">
                 </a>
             </div>
         </div>
         </footer>
+        
+
 
 
         <!--<< All JS Plugins >>-->
